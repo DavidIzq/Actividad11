@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Punto 6</title>
+    <style>
+    ol{
+        counter-reset: item;
+    }
+    li{
+        display:block;
+    }
+    li:before{
+        content:counters(item, ".")" ";
+        counter-increment: item;
+    }
+    
+    </style>
+</head>
+<body>
+<ol>
+        <li><a href="#">General references</a></li>
+        <li><a href="#">Culture and arts</a>
+            <ol>
+                <li><a href="#">Literatura</a></li>
+                <li><a href="#">Mythology</a></li>
+                <li><a href="#">Art and the arts</a>
+                    <ol>
+                        <li><a href="#">Perfoming arts</a></li>
+                        <li><a href="#">Visual arts</a></li>
+                    </ol>
+                </li>
+                <li><a href="#">Entertainment and recreation</a>
+                    <ol>
+                        <li><a href="#">Games</a></li>
+                        <li><a href="#">Sports</a></li>
+                    </ol>
+                </li>
+                <li><a href="#">Food and drink</a></li>
+                <li><a href="#">Mass media</a></li>
+            </ol>
+        </li>
+        <li><a href="#">Geography and places</a>
+            <ol>
+                <li><a href="#">Natural geographical features</a>
+                    <ol>
+                        <li><a href="#">Landforms</a></li>
+                        <li><a href="#">Bodies of water</a></li>
+                    </ol>
+                </li>
+                <li><a href="#">Manmade geographical features</a>
+                    <ol>
+                        <li><a href="#">Countries and regions</a></li>
+                        <li><a href="#">Places</a></li>
+                        <li><a href="#">Settlements</a></li>
+                    </ol>
+                </li>
+            </ol>
+        </li>
+        <li><a href="#">History and events</li>
+        <li><a href="#">Mathematics and logic</li>
+        <li><a href="#">Natural and physical sciences
+            <ol>
+                <li><a href="#">Biology</li>
+                <li><a href="#">Physical sciences</li>
+            </ol>
+        </li>
+        <li><a href="#">People</a></li>
+        <li><a href="#">Religion and belief systems</a></li>
+        <li><a href="#">Society and social sciences</a>
+            <ol>
+                <li><a href="#">Archaeology</a></li>
+                <li><a href="#">Linguistics</a></li>
+                <li><a href="#">Social institutions</a>
+                    <ol>
+                        <li><a href="#">Infrastructure</a></li>
+                        <li><a href="#">Economy and business</a></li>
+                        <li><a href="#">Education</a></li>
+                        <li><a href="#">Government and politics</a></li>
+                        <li><a href="#">Law</a></li>
+                    </ol>
+                </li>
+                <li><a href="#">War</a></li>
+            </ol>
+        </li>
+        <li><a href="#">technology and applied science</a></li>
+            <li><a href="#">Aerospace</a></li>     
+            <li><a href="#">Buildings</a></li>
+            <li><a href="#">Energy</a></li>
+            <li><a href="#">Medicine</a></li>
+            <li><a href="#">Maritime</a></li>
+            <li><a href="#">Military</a></li>
+            <li><a href="#">Technology</a></li>
+        <li><a href="#">Miscellaneous</a></li>
+    </ol>
+</body>
+</html>
